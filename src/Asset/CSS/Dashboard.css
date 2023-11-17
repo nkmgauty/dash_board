@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.dash_cards {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
+}
+
+.card_position {
+  padding: 0px 10px;
+}
+
+.table_1 {
+  padding: 30px 30px;
+}
+
+.table_2 {
+    padding: 30px 30px;
+  }
+
+.dash_pie {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 20px;
+}
+
+.div_line {
+  border: 1px rgb(52, 51, 51) solid;
+  
+}
