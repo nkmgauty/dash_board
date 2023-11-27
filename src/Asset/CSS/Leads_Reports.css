@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.LR_main {
+  background-color: rgb(182, 181, 181);
+  height: 100vp;
+  width: 100%;
+  padding: 20px;
+}
+
+.LR_container_1 {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  /* border: 1px solid black; */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.LR_btn_position {
+  padding: 30px 20px;
+}
+
+.LR_container_2 {
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.lr_lincha {
+  background-color: white;
+}
+
+.lr_barcha {
+  background-color: white;
+}
+
+.LR_chart_head {
+  background-color: aliceblue;
+  padding: 10px 0px;
+}
+
+.LR_chart_head h3 {
+  padding: 0px 10px;
+}
+
+.LR_linechart {
+  width: 600px;
+  background-color: white;
+}
+
+.LR_barchart {
+  width: 600px;
+  background-color: white;
+}
+
+.LR_container_3 {
+  background-color: white;
+}
+
+.LR_drop_2 {
+  height: 200px;
+}

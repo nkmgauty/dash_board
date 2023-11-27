@@ -29,15 +29,8 @@ const Shifts_page = () => {
     "Food",
     "Food",
     "Food",
-    
   ];
-  let row = [
-    "Item 1",
-    "Item 2",
-    "Item 1",
-    "Item 1",
-   
-  ];
+  let row = ["Item 1", "Item 2", "Item 1", "Item 1"];
   const data = [
     [
       { value: "Vanilla" },
@@ -51,7 +44,6 @@ const Shifts_page = () => {
       { value: "Chocolate" },
       { value: "Chocolate" },
       { value: "Vanilla" },
-      
     ],
     [
       { value: "Strawberry" },
@@ -65,7 +57,6 @@ const Shifts_page = () => {
       { value: "Cookies" },
       { value: "Cookies" },
       { value: "Strawberry" },
-      
     ],
   ];
   return (
@@ -99,6 +90,7 @@ const Shifts_page = () => {
                   <option>2</option>
                   <option>3</option>
                   <option>4</option>
+                  <option>5</option>
                   <option>5</option>
                   <option>5</option>
                 </Input>
@@ -203,7 +195,12 @@ const Shifts_page = () => {
           </tbody>
         </Table> */}
 
-        <Spreadsheet responsive data={data} columnLabels={col} rowLabels={row} />
+        <Spreadsheet
+          responsive
+          data={data}
+          columnLabels={col}
+          rowLabels={row}
+        />
       </div>
     </div>
   );

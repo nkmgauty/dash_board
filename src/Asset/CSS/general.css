@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.GDPR_general {
+  margin: 30px;
+}
+
+.gdpr_general_heading {
+  padding: 10px 0px;
+}
+
+.enable_GDPR {
+  padding: 10px 0px;
+}
+
+.show_GDPR_can {
+  padding: 10px 0px;
+}
+
+.show_GDPR_caf {
+  padding: 10px 0px;
+}
+
+.gdpr_text_edit{
+    padding-top:10px ;
+    padding-right: 500px;
+   
+}
+
+.ql-editor{
+    height: 300px;
+}
