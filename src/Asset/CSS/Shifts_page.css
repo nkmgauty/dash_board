@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.shift_main {
+  width: 100%;
+  height: auto;
+}
+
+.shift_table{
+    padding: 40px 20px;
+}
+
+#shift_form{
+    width:100%;
+    padding: 100px 30px;
+}
+
+#exampleDate{
+    width: 300px;
+}
+
+#Department{
+    width: 300px;
+}
+
+#exampleSelect{
+    width: 300px;
+}
