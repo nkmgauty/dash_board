@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.GDPR_RTBI{
+    margin: 30px;
+}
+
+.rtbi_heading{
+    padding: 10px 0px;
+}
+
+.rtbi_dropdown{
+    padding: 10px 0px;
+}
+
+.rtbi_editor{
+   
+    padding-right: 500px;
+}

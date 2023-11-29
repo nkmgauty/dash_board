@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Gdpr_consent{
+    margin: 30px;
+}
+
+.consent_heading{
+    padding: 10px 0px;
+}
+
+.consent_editor{
+    padding-top:10px ;
+    padding-right: 500px;
+   
+}

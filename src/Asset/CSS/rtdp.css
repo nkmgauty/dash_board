@@ -1,4 +1,38 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.GDPR_Rtdp {
+  margin: 40px;
+}
+
+.gdpr_rtdp_heading {
+  padding: 10px 0px;
+}
+
+.rtdp_select_1 {
+  padding: 10px 0px;
+}
+
+.rtdp_select_2 {
+  padding: 10px 0px;
+}
+
+.rtdp_dropdown_1 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+
+.select_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rtdp_dropdown_2 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
 }
