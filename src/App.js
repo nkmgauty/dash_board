@@ -9,21 +9,26 @@ import RTDP from "./Components/GDPR_contents/RTDP";
 import Leads_Reports from "./Components/Leads_Reports";
 import Shifts_page from "./Components/Shifts_page";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Calender from "./Components/Calender";
+import Calender_1 from "./Components/Calender_dash";
+import New_Dash from "./Components/New_Components/New_Dash";
+
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<Dashboard />}>
-            <Route path="shift_page" element={<Shifts_page />} />
-            <Route path="leads_reports" element={<Leads_Reports />} />
-            <Route path="gdpr" element={<GDPR />} />
-            <Route path="calender" element={<Calender />} />
+            <Route path="/shift_page" element={<Shifts_page />} />
+            <Route path="/leads_reports" element={<Leads_Reports />} />
+            <Route path="/gdpr" element={<GDPR />} />
+            <Route path="/calender" element={<Calender_1 />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      
+<New_Dash />
+
     </>
   );
 }

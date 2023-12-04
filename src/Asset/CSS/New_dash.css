@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.card_content {
+  min-height: 85px;
+  padding: 5px 15px 15px 15px;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 15px 1px rgba(90, 90, 90, 0.08);
+  border: 1px solid #dce1ef;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_position {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+}
+
+.dash_heading {
+  padding: 15px 120px;
+}
+
+.progress_bar_position {
+  padding: 50px 0px;
+}
+
+.donut_position {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+}
+
+.dash_table {
+  padding: 20px 120px;
+}
+
+.dash_table h4 {
+  padding: 20px 0px;
+}
+
+.pagination_dash {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 10px !important;
+
+  @media (min-width: 768px) {
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+}
+
+.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input {
+  padding-bottom: 18px;
+}
+
+.css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon {
+  top: 1px !important;
+}
+
+.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar
+  .MuiTablePagination-actions {
+  padding-bottom: 18px;
+}

@@ -5,26 +5,25 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
 import FormLabel from "@mui/material/FormLabel";
 import ReactQuill from "react-quill";
-import  "react-quill/dist/quill.snow.css";
-import "../../Asset/CSS/general.css"
+import "react-quill/dist/quill.snow.css";
+import "../../Asset/CSS/general.css";
 
-const  modules  = {
+const modules = {
   toolbar: [
-      [{ font: [] }],
-      [{ header: [1, 2, 3, 4, 5, 6, false] }],
-      ["bold", "italic", "underline", "strike"],
-      [{ color: [] }, { background: [] }],
-      [{ script:  "sub" }, { script:  "super" }],
-      ["blockquote", "code-block"],
-      [{ list:  "ordered" }, { list:  "bullet" }],
-      ["link", "image", "video"],
-      ["clean"],
+    [{ font: [] }],
+    [{ header: [1, 2, 3, 4, 5, 6, false] }],
+    ["bold", "italic", "underline", "strike"],
+    [{ color: [] }, { background: [] }],
+    [{ script: "sub" }, { script: "super" }],
+    ["blockquote", "code-block"],
+    [{ list: "ordered" }, { list: "bullet" }],
+    ["link", "image", "video"],
+    ["clean"],
   ],
 };
 
 const General = () => {
-
-  const [value, setValue] =  useState("");
+  const [value, setValue] = useState("");
   console.log(value);
   return (
     <div className="GDPR_general">
@@ -102,7 +101,12 @@ const General = () => {
       </div>
 
       <div className="gdpr_text_edit">
-        <ReactQuill modules={modules} theme="snow" onChange={setValue} placeholder="The content starts here..." />
+        <ReactQuill
+          modules={modules}
+          theme="snow"
+          onChange={setValue}
+          placeholder="The content starts here..."
+        />
       </div>
     </div>
   );
